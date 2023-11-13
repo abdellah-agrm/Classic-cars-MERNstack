@@ -1,0 +1,146 @@
+[
+  {
+      "id": 1,
+      "model": "T150 SS Figoni et Falaschi Teardrop Coupe",
+      "brand": "Talbot Lago",
+      "year": 1938,
+      "maxSpeed": 100,
+      "img": "Talbot-Lago-T150-SS-Figoni-et-Falaschi-Teardrop-Coupe-1938.png"
+  },
+  {
+      "id": 2,
+      "model": "1600 Typ3 sedan",
+      "brand": "Volkswagen",
+      "year": 1965,
+      "maxSpeed": 80,
+      "img": "Volkswagen-1600-Typ3-sedan-1965.png"
+  },
+  {
+      "id": 3,
+      "model": "Karmann Ghia Typ14 Coupe",
+      "brand": "Volkswagen",
+      "year": 1955,
+      "maxSpeed": 90,
+      "img": "Volkswagen-Karmann-Ghia-Typ14-Coupe-1955.png"
+  },
+  {
+      "id": 4,
+      "model": "6C 300 PR Disco Volante",
+      "brand": "Alfa Romeo",
+      "year": 1953,
+      "maxSpeed": 120,
+      "img": "Alfa-Romeo-6C-300-PR-Disco-Volante-1953.png"
+  },
+  {
+      "id": 5,
+      "model": "6C 2300 S Touring Pescara Spider",
+      "brand": "Alfa Romeo",
+      "year": 1935,
+      "maxSpeed": 110,
+      "img": "Alfa-Romeo-6C-2300-S-Touring-Pescara-Spider-1935.png"
+  },
+  {
+      "id": 6,
+      "model": "6C 2500 Corsa Touring coupe",
+      "brand": "Alfa Romeo",
+      "year": 1938,
+      "maxSpeed": 130,
+      "img": "Alfa-Romeo-6c-2500-Corsa-Touring-coupe-1938.png"
+  },
+  {
+      "id": 7,
+      "model": "Speed Six",
+      "brand": "Bentley",
+      "year": 1930,
+      "maxSpeed": 120,
+      "img": "Bentley-Speed-Six-1930.png"
+  },
+  {
+      "id": 8,
+      "model": "Type 41 Royale",
+      "brand": "Bugatti",
+      "year": 1927,
+      "maxSpeed": 130,
+      "img": "Bugatti-Type-41-Royale-1927.png"
+  },
+  {
+      "id": 9,
+      "model": "V16 452452 A Roadster",
+      "brand": "Cadillac",
+      "year": 1930,
+      "maxSpeed": 110,
+      "img": "Cadillac-V16-452452-A-Roadster-1930.png"
+  },
+  {
+      "id": 10,
+      "model": "Custom Club Coupe",
+      "brand": "Ford",
+      "year": 1949,
+      "maxSpeed": 100,
+      "img": "Ford-Custom-Club-Coupe-1949.png"
+  },
+  {
+      "id": 11,
+      "model": "T 4door Tourer",
+      "brand": "Ford",
+      "year": 1924,
+      "maxSpeed": 60,
+      "img": "Ford-model-T-4door-Tourer-1924.png"
+  },
+  {
+      "id": 12,
+      "model": "V8 78 700A Standard Tudor Sedan",
+      "brand": "Ford",
+      "year": 1937,
+      "maxSpeed": 90,
+      "img": "Ford-V8-78-700A-model-78-Standard-Tudor-Sedan-1937.png"
+  },
+  {
+      "id": 13,
+      "model": "V8 Super Deluxe 21A Tudor Sedan Army Staff",
+      "brand": "Ford",
+      "year": 1942,
+      "maxSpeed": 95,
+      "img": "Ford-V8-Super-Deluxe-21A-Tudor-Sedan-Army-Staff-Car-1942.png"
+  },
+  {
+      "id": 14,
+      "model": "450S Prototype",
+      "brand": "Maserati",
+      "year": 1956,
+      "maxSpeed": 150,
+      "img": "Maserati-450S-Prototype-1956.png"
+  },
+  {
+      "id": 15,
+      "model": "3500 Spyder",
+      "brand": "Maserati",
+      "year": 1959,
+      "maxSpeed": 140,
+      "img": "Maserati-3500-Spyder-1959.png"
+  },
+  {
+      "id": 16,
+      "model": "280 W108 SEL",
+      "brand": "Mercedes-Benz",
+      "year": 1972,
+      "maxSpeed": 120,
+      "img": "Mercedes-Benz-280-W108-SEL-1972.png"
+  },
+  {
+      "id": 17,
+      "model": "770K",
+      "brand": "Mercedes-Benz",
+      "year": 1936,
+      "maxSpeed": 140,
+      "img": "Mercedes-Benz-770K-1936.png"
+  },
+  {
+      "id": 18,
+      "model": "W165 Formula Racing Car",
+      "brand": "Mercedes-Benz",
+      "year": 1939,
+      "maxSpeed": 160,
+      "img": "Mercedes-Benz-W165-Formula-Racing-Car-1939.png"
+  }
+]
