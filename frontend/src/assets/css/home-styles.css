@@ -1,0 +1,241 @@
+/* Local fonts : */
+@font-face {
+  font-family: 'Inter-regular';
+  src: url("../fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Chiaroscura-md';
+  src: url("../fonts/ChiaroscuraTRIAL-Md.otf");
+}
+
+@font-face {
+  font-family: 'Chiaroscura-sbd';
+  src: url("../fonts/ChiaroscuraTRIAL-SmBd.otf");
+}
+
+/* Colors :  */
+:root {
+  --spdark: #2A2C41;
+  --spyellow: #FDBF50;
+  --spwhite: #F4F4F8;
+  --sporange: #FF724C;
+}
+
+body {
+  background: var(--spdark);
+  /* height: 100vh; */
+  font-family: 'Inter-regular', sans-serif;
+}
+
+/* ===================== 
+======== Navbar ========
+===================== */
+.text-spdark {
+  color: var(--spdark);
+}
+
+.text-spwhite {
+  color: var(--spwhite);
+}
+
+.text-spyellow {
+  color: var(--spyellow);
+}
+
+.bg-spyellow {
+  background: var(--spyellow);
+}
+
+.text-chiaroscura {
+  font-family: 'Chiaroscura-md';
+}
+
+.text-inter {
+  font-family: 'Inter-regular', sans-serif;
+}
+
+.bg-spdark {
+  background: var(--spdark);
+}
+
+.border-spdark-end {
+  border-right: 2px solid var(--spdark);
+}
+
+.border-spyellow {
+  border: 1px solid var(--spyellow);
+}
+.border-spdark {
+  border: 1px solid var(--spdark);
+}
+
+.nav a {transition: transform 0.3s}
+.nav a:hover {transform: scale(1.2); color: var(--spwhite)}
+.nav a:focus {transform: scale(1.2); color: var(--spwhite)} 
+
+.dropdown-menu {
+  background: var(--spdark);
+  color: var(--spyellow);
+  border: 1px solid var(--spyellow);
+}
+
+.dropdown-menu a {
+  transition: transform 0.3s;
+  color: var(--spyellow);
+}
+
+.dropdown-menu a:hover {
+  transform: scale(1.05);
+  background: var(--spyellow);
+  color: var(--spdark);
+  cursor: pointer;
+}
+
+.nav-username {
+  color: var(--spyellow);
+}
+
+.arrow-down {transition: transform 0.3s;}
+.arrow-down:hover {cursor: pointer; transform: scale(1.2);}
+
+/* ============================ 
+======== Main Carousel ========
+============================ */
+
+.carousel-inner {
+  height: 76vh;
+  padding-top: 8vh;
+}
+
+.car-name {
+  font-family: 'Chiaroscura-md';
+  font-size: 10vh;
+  color: var(--spyellow);
+}
+
+.car-mini-description {
+  color: var(--spwhite);
+  font-size: 2.5vh;
+}
+
+.img-hover {
+  transition: transform 0.5s;
+}
+
+.img-hover:hover {
+  transform: scale(1.1);
+}
+
+.two-arrows {transition: transform 0.3s}
+.two-arrows:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.fixed-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 999; 
+  border: 2px solid var(--spdark);
+  transition: transform 0.3s;
+}
+
+/* ============================ 
+======== Car Carousel =========
+============================ */
+.div-card-car {
+  background-image: url("/public/elements-img/card-bg.png");
+  background-size: cover;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.div-card-newcar {
+  background-image: url("/public/elements-img/card-bg.png");
+  background-size: cover;
+  margin: auto;
+}
+
+.img-card-car {
+  transition: transform 0.5s;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: auto;
+}
+
+.img-card-car:hover {
+  transform: scale(1.1);
+}
+
+.two-icons {
+  width: 26px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.two-icons:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+/* ============================ 
+============ FAQs =============
+============================ */
+.card-header {color: var(--spdark);}
+.card-header:hover {
+  color: var(--spwhite);
+}
+
+/* ============================ 
+======= Clients opinion =======
+============================ */
+.co-arrows {transition: transform 0.3s;}
+.co-arrows:hover {transform: scale(1.2); cursor: pointer;}
+
+.co-carousel {
+  height: 25rem;
+}
+
+/* ============================ 
+=========== Footer ============
+============================ */
+
+.border-top-spyellow {
+  border-top: 1px solid var(--spyellow);
+}
+
+footer svg {color: var(--spyellow);transition: transform 0.3s}
+footer svg:hover {transform: scale(1.2); color: var(--spwhite)}
+footer svg:focus {transform: scale(1.2); color: var(--spwhite)}
+
+/* ============================ 
+=========== Mobile ============
+============================ */
+@media (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+  .carousel-inner {
+    height: 70vh;
+    padding-top: 0vh;
+  }
+
+  .car-name {
+    font-size: 6vh;
+  }
+
+  .car-mini-description {
+    font-size: 2vh;
+  }
+
+  footer p {
+    font-size: 1.5vh;
+  }
+
+  .co-carousel {
+    height: 40rem;
+  }
+}
